@@ -24,7 +24,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/keycloak?currentSchema=public&binaryTransfer=true&reWriteBatchedInserts=true
     username: keycloak
-    password: keycloak
+    password: password
     driver-class-name: org.postgresql.Driver
     platform: postgres
     schema: classpath:init-schema.sql
